@@ -121,7 +121,7 @@ describe 'ActiveRecord Obstacle Course' do
     # ------------------------------------------------------------
 
     # ------------------ Using ActiveRecord ----------------------
-    items = Item.find(@item_1.id,@item_2.id, @item_4.id)
+    items = Item.find(@item_1.id,@item_2.id, @item_4.id).sort
     # ------------------------------------------------------------
 
     # Expectation
